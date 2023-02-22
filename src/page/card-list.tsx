@@ -7,6 +7,9 @@ export const CardList = () => {
   const [result, setResult] = useState<number>(0);
   return (
     <Container>
+      <main>
+        <h1>vikashyika</h1>
+      </main>
       <Component>
         <PostListDataContainer />
         <PostFilterContainer setResult={setResult} />
